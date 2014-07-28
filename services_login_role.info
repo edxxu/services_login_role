@@ -1,0 +1,5 @@
+name = Services login role
+description = 限制特定的role才能通过services登陆
+package = Services
+core = 7.x
+;version = "7.x-1.0"
