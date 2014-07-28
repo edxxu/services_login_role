@@ -2,3 +2,5 @@ services_login_role
 ===================
 
 限制通过services api进行的登陆，只允许管理员设置的role登陆。
+
+配置页面： admin/services/login-roles
