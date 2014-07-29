@@ -1,0 +1,16 @@
+<?php
+
+/**
+ * Implements hook_enable().
+ */
+function services_login_role_install() {
+  //默认注册用户可以通过services登陆
+  variable_set('services_login_allowed_roles', array(2 => 2));
+}
+
+/**
+ * Implements hook_uninstall().
+ */
+function services_login_role_uninstall() {
+  variable_del('services_login_allowed_roles');
+}
